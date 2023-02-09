@@ -1,0 +1,165 @@
+.textContent {
+    display: flex;
+    flex-direction: row;
+    margin-left: 116px;
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.sales {
+    color: #414141;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+.bought {
+    font-size: 34px;
+    line-height: 160%;
+    margin-right: -110px;
+}
+.salesBtn {
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 900px;
+    margin-right: 18px;
+}
+.allBuy {
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 825px;
+    margin-right: 18px;
+}
+.newsBtn {
+    margin-left: 855px;
+}
+.buyBtn {
+    margin-left: 870px;
+}
+.sales__stroke {
+    transform: rotate(270deg);
+}
+
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+}
+.item__food {
+    width: 270px;
+    height: 150px;
+}
+.item__heart {
+    display: flex;
+    position: relative;
+    width: 26px;
+    height: 22px;
+    opacity: 0.5;
+    border-radius: 4px;
+    margin-left: 240px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.priceSale {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
+    width: 60px;
+    padding: 8px;
+    background: #FF6633;
+    border-radius: 4px;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.item {
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 15px 4px;
+    height: 100%;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.light {
+    color: #BFBFBF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+}
+.price__box {
+    display: flex;
+    flex-direction: row;
+    gap: 135px;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.price__box div {
+    text-align: center;
+}
+.card { 
+    color: #414141;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+}
+.withCard {
+    margin-top: -3px;
+    margin-left: -14px;
+}
+.cash {
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.nameProduct {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    width: 256px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+.inCart {
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.inCart button {
+    border: 1px solid #70C05B;
+    color: #70C05B;
+    background: transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 250px;
+    transition: .3s;
+    height: 40px;
+    margin-top: 4px;
+}
+.inCart button:hover {
+    transition: .3s;
+    border: 1px solid #FF6633;
+    background-color: #FF6633;
+    color: #FFFFFF;
+}
+.secondTextContent {
+    margin-top: 70px;
+}
+.newSausage {
+    margin-top: 5px;
+    margin-left: 4px;
+}

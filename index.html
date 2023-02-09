@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/specialOffer.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/products.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/state.css">
+    <link rel="stylesheet" href="./styles/freeDelivery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Северяночка</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="leftSide">
+                <img class="severanochka" src="./image/severanochka.png" alt="Severanochka">
+                <p class="header__leftSide_p">Северяночка</p>
+            </div>
+            <div class="centerSide">
+                <div class="centerSide__Catalog">
+                    <div class="spans">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>Каталог</p>
+                </div>
+                <div class="centerSide__input">
+                    <input placeholder="Найти товар" type="text">
+                    <img class="search" src="./image/search.png" alt="search">
+                </div>
+            </div>
+            <div class="rightSide">
+                <div class="mainMenu">
+                    <ul class="menu">
+                        <li class="menu_item"><img src="./image/heart.png" alt="heart">Избранное</li>
+                        <li class="menu_item"><img src="./image/box.png" alt="box">Заказы</li>
+                        <li class="menu_item"><img src="./image/cart.png" alt="cart">Корзина</li>
+                    </ul>
+                </div>
+                <div class="profile">
+                    <img src="./image/avatar.png" alt="avatar">
+                    <p class="profile__name">Дмитрий</p>
+                    <img class="stroke" src="./image/stroke.png" alt="stroke">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="freeDelivery">
+        <img class="food" src="./image/food.png" alt="food">
+        <h2 class="delivery">Бесплатная доставка от 1000₴</h2>
+    </section>
+    <section class="products">
+        <div class="textContent">
+            <h3 class="sales">Акции</h3>
+            <p class="salesBtn">Все акции</p>
+            <img class="sales__stroke" src="./image/stroke.png" alt="stroke">
+        </div>
+        <div class="items">
+            <div class="item">
+                <img class="item__heart" src="./image/heart.png" alt="no like">
+                <img class="item__food" src="./image/pancakes.png" alt="pancakes">
+                <p class="priceSale">- 50%</p>
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="card">44.50 ₴</p>
+                            <p class="withCard light">С картой</p>
+                        </div>
+                        <div>
+                            <p class="cash">50.50 ₴</p>
+                            <p class="light">Обычная</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Г/Ц Блинчики с мясом вес, Украина</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img id="myImage2" class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/milk.png" alt="pancakes">
+                <p class="priceSale">- 50%</p>
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="card">44.50 ₴</p>
+                            <p class="withCard light">С картой</p>
+                        </div>
+                        <div>
+                            <p class="cash">50.50 ₴</p>
+                            <p class="light">Обычная</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img id="noLike" class="item__heart" src="./image/heart.png" alt="no like">
+                <img class="item__food" src="./image/sausage.png" alt="pancakes">
+                <p class="priceSale">- 50%</p>
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="card">44.50 ₴</p>
+                            <p class="withCard light">С картой</p>
+                        </div>
+                        <div>
+                            <p class="cash">50.50 ₴</p>
+                            <p class="light">Обычная</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/sausageSecType.png" alt="pancakes">
+                <p class="priceSale">- 50%</p>
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="card">44.50 ₴</p>
+                            <p class="withCard light">С картой</p>
+                        </div>
+                        <div>
+                            <p class="cash">50.50 ₴</p>
+                            <p class="light">Обычная</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="textContent secondTextContent">
+            <h3 class="sales">Новинки</h3>
+            <p class="salesBtn newsBtn">Все новинки</p>
+            <img class="sales__stroke" src="./image/stroke.png" alt="stroke">
+        </div>
+        <div class="items">
+            <div class="item">
+                <img class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/sausageThrType.png" alt="sausage">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">599.99 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img id="myImage2" class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/sausage.png" alt="pancakes">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">159.99 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img id="noLike" class="item__heart" src="./image/heart.png" alt="no like">
+                <img class="item__food" src="./image/sausageSecType.png" alt="pancakes">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">49.39 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/milk.png" alt="pancakes">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">44.50 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="textContent secondTextContent">
+            <h3 class="sales bought">Покупали раньше</h3>
+            <p class="salesBtn allBuy">Все покупки</p>
+            <img class="sales__stroke" src="./image/stroke.png" alt="stroke">
+        </div>
+        <div class="items">
+            <div class="item">
+                <img class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/sausageFourType.png" alt="sausage">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">79.99 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img id="myImage2" class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/sausageSecType.png" alt="pancakes">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">159.99 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img id="noLike" class="item__heart" src="./image/heart.png" alt="no like">
+                <img class="item__food" src="./image/sausageThrType.png" alt="pancakes">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">599.99 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="item__heart" src="./image/heart.png" alt="like">
+                <img class="item__food" src="./image/milk.png" alt="pancakes">
+                <div class="price">
+                    <div class="price__box">
+                        <div>
+                            <p class="newSausage card">49.39 ₴</p>
+                        </div>
+                    </div>
+                    <div class="nameProduct">
+                        <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                    </div>
+                    <div class="inCart">
+                        <button>В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="specailOfferSection">
+        <div class="specialText">
+            <h2 class="specialText__h2">Специальные предложения</h2>
+        </div>
+        <div class="specailOffer">
+            <div class="takeSaleCard">
+                <div class="takeSaleCard__textContent">
+                    <h3 class="takeSaleCard__textContent__h3">Оформите карту «Северяночка»</h3>
+                    <p class="takeSaleCard__textContent__p">И получайте бонусы при покупке в магазинах и на сайте</p>
+                </div>
+                <div class="saleCard">
+                    <img class="saleCard__img" src="./image/card.png" alt="card">
+                </div>
+            </div>
+    
+            <div class="takeBuy">
+                <div class="takeBuy__textContent">
+                    <h3 class="takeBuy__textContent__h3">Покупайте акционные товары</h3>
+                    <p class="takeBuy__textContent__p">И получайте вдвое больше бонусов</p>
+                </div>
+                <div class="buyCart">
+                    <img class="buyCart__img" src="./image/shopping.png" alt="shopping">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <div class="nameLocation">
+            <h2 class="nameLocation__h2">Наши магазины</h2>
+        </div>
+        <div class="buttons">
+            <button class="btn">п.Щельяюр</button>
+            <button class="btn">д.Вертеп</button>
+            <button class="btn">с.Краснобор</button>
+            <button class="btn">д.Диюр</button>
+        </div>
+        <div class="map">
+            <img src="./image/map.png" alt="карта">
+        </div>
+    </section>
+
+
+
+    
+    <section class="products">
+        <div class="textContent">
+            <h3 class="sales">Статьи</h3>
+            <p class="salesBtn">Все статьи</p>
+            <img class="sales__stroke" src="./image/stroke.png" alt="stroke">
+        </div>
+
+        <div class="itemsState">
+            <div class="itemState">
+                <div class="imgState">
+                    <img src="./image/man.jpg" alt="">
+                </div>
+                <div class="data">
+                    <p>05.03.2021</p>
+                </div>
+                <div class="textContentState">
+                    <h2>Режим использования масок и перчаток на территории магазинов</h2>
+                    <p>Подробная информация о режимах использования масок и перчаток на территории магазинов "ЛЕНТА". Информация обновляется каждый будний день.</p>
+                </div>
+                <div class="bt">
+                    <button class="green-btn">Подробнее</button>
+                </div>
+            </div>
+            <div class="itemState">
+                <div class="imgState">
+                    <img src="./image/sunshine.jpg" alt="">
+                </div>
+                <div class="data">
+                    <p>05.03.2021</p>
+                </div>
+                <div class="textContentState">
+                    <h2>Весеннее настроение для каждой</h2>
+                    <p>8 Марта – это не просто Международный женский день, это ещё день тюльпанов, приятных сюрпризов и праздничных тёплых пожеланий.</p>
+                </div>
+                <div class="bt">
+                    <button class="green-btn">Подробнее</button>
+                </div>
+            </div>
+            <div class="itemState">
+                <div class="imgState">
+                    <img src="./image/zoj.jpg" alt="">
+                </div>
+                <div class="data">
+                    <p>05.03.2021</p>
+                </div>
+                <div class="textContentState">
+                    <h2>ЗОЖ или ФАСТФУД. А вы на чьей стороне? Голосуем!</h2>
+                    <p>Голосуйте за любимые категории, выбирайте категорию-победителя в мобильном приложении и получайте кешбэк 10% баллами в апреле!</p>
+                </div>
+                <div class="bt">
+                    <button class="green-btn">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="logo">
+            <img src="./image/logo.png" alt="severanochka">
+        </div>
+        <div class="info">
+            <ul>
+                <li>О компании</li>
+                <li>Контакты</li>
+                <li>Вакансии</li>
+                <li>Статьи</li>
+                <li>Политика обработки персональных данных</li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul>
+                <li><img src="./image/instagram.png" alt="instagram"></li>
+                <li><img src="./image/vkontakte.png" alt="vkontakte"></li>
+                <li><img src="./image/facebook.png" alt="facebook"></li>
+                <li><img src="./image/youtube.png" alt="youtube"></li>
+            </ul>
+        </div>
+        <div class="telephone">
+            <img src="./image/phone.png" alt="phone">
+            <p>8 800 777 33 33</p>
+        </div>
+    </footer>
+</body>
+</html>

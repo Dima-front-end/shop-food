@@ -1,0 +1,139 @@
+header {
+    width: 100%;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;   
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 116px
+}
+
+
+.leftSide {
+    display: flex;
+    flex-direction: row;
+}
+.header__leftSide_p {
+    text-transform: uppercase;
+    color: #414141;
+    height: 10px;
+    margin-top: 13px;
+    margin-left: 18px;
+}
+.severanochka {
+    position: relative;
+    margin-top: 6px;
+    height: 36px;
+    width: 38px;
+}
+
+
+.centerSide {
+    display: flex;
+    margin-left: 40px;
+}
+.centerSide__Catalog {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    background: #70C05B;
+    border-radius: 4px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.centerSide__Catalog p {
+    position: relative;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 28px;
+    margin-top: 8px;
+}
+.spans {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+.spans span {
+    background: #FFFFFF;
+    width: 20px;
+    height: 2px;
+}
+.centerSide__input {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+.centerSide__input input {
+    height: 40px;
+    width: 375px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border: 1px solid #70C05B;
+    border-radius: 4px;
+    outline: none;
+}
+.search {
+    position: relative;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+
+.rightSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+    list-style-type: none;
+}
+.menu li {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #414141;
+    align-items: center;
+}
+.menu li img {
+    width: 22px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.profile__name {
+    color: #232323;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.stroke {
+    display: flex;
+    align-items: center;
+    width: 13px;
+    margin-top: 19px;
+    margin-left: 18px;
+    height: 7px;
+}

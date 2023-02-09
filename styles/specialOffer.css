@@ -1,0 +1,131 @@
+.specailOffer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.takeSaleCard {
+    display: flex;
+    flex-direction: row;
+    width: 584px;
+    height: 200px;
+    background: #FCD5BA;
+    box-shadow: 0px 8px 16px rgba(202, 147, 96, 0.5);
+    border-radius: 4px;
+}
+.takeSaleCard__textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.takeSaleCard__textContent__h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #414141;
+}
+
+.takeSaleCard__textContent__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    width: 258px;
+    height: 48px;
+}
+.saleCard__img {
+    align-items: center;
+    width: 310px;
+    height: 200px;
+    margin-left: -15px;
+}
+
+.specialText__h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #414141;
+}
+.specailOfferSection {
+    margin-top: 100px;
+}
+.specialText {
+    margin-left: 116px;
+    margin-bottom: 40px;
+}
+
+
+.takeBuy {
+    display: flex;
+    flex-direction: row;
+    width: 584px;
+    height: 200px;
+    background: #E5FFDE;
+    border-radius: 4px;
+}
+.takeBuy__textContent__h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #414141;
+    width: 258px;
+    height: 72px;
+}
+.takeBuy__textContent__p{
+    width: 258px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+.takeBuy__textContent {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 8px;
+}
+.buyCart__img {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.location {
+    margin-top: 100px;
+    margin-left: 85px;
+}
+.nameLocation__h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #414141;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+.buttons .btn {
+    padding: 10px;
+    background: #F3F2F1;
+    transition: .3s;
+    border-radius: 4px;
+    border: none;
+    color: #606060;
+}
+.buttons .btn:hover {
+    background: #70C05B;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.map {
+    width: 1208px;
+    height: 354px;
+    justify-content: center;
+    align-items: center;
+}

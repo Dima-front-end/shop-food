@@ -1,0 +1,18 @@
+.freeDelivery {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+    background-image: url("./background.jpg");
+    margin-top: 3px;
+}
+.food {
+    margin-left: 185px;
+}
+.delivery {
+    color: #414141;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    margin-left: 24px;
+}

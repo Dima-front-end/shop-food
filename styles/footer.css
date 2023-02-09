@@ -1,0 +1,43 @@
+footer {
+    margin-top: 80px;
+    height: 126px;
+    background: #F9F4E2;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info ul li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #414141;
+    list-style-type: none;
+}
+.info ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 40px;
+}
+
+.social ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 130px;
+}
+.telephone {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+.logo img {
+    width: 75px;
+}
